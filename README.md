@@ -1,5 +1,5 @@
-# ELIZA — ECON1626 Economics of Artificial Intelligence (RMIT)
-
+# ELIZA
+Created by Chris Berg for ECON1626 Economics of Artificial Intelligence (RMIT). Based on [keithweaver/eliza](https://github.com/kweaver00/eliza) by Keith Weaver (MIT License)
 An interactive browser demo of ELIZA, the classic 1966 natural language processing program, packaged as a single self-contained HTML file.
 
 ## What is ELIZA?
