@@ -27,6 +27,17 @@ The implementation has four logical parts, all inlined into `eliza.html`:
 
 The original multi-file project (HTML + 4 JS files + 4 CSS files + CDN dependencies) has been consolidated into a single portable file with all assets embedded as base64 and all jQuery calls replaced with vanilla JS.
 
+## "Show Working" panel
+
+Click **Show Working ▶** (top-right corner) to open a live decision panel alongside the chat. After each of Eliza's replies the panel shows exactly how the response was chosen:
+
+1. **Your message** — what you typed
+2. **After cleaning** — the text after lowercasing and punctuation removal
+3. **Searching rules** — which keyword rules were checked (highest priority first), where the search stopped, and whether a match was found or the fallback triggered
+4. **Choosing a response** — how many responses the matched rule has, which was selected, and (for wildcard responses) what text was extracted from your message and any pronoun substitutions applied
+
+The panel is intended to make the mechanics of the algorithm visible to students with no programming background.
+
 ## Demos
 
 Type into the chat box and press Enter. Two scripted demos are also available:
