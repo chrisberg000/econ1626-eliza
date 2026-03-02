@@ -1,5 +1,6 @@
 # ELIZA
 Created by Chris Berg for ECON1626 Economics of Artificial Intelligence (RMIT). Based on [keithweaver/eliza](https://github.com/kweaver00/eliza) by Keith Weaver (MIT License)
+
 An interactive browser demo of ELIZA, the classic 1966 natural language processing program, packaged as a single self-contained HTML file.
 
 ## What is ELIZA?
@@ -8,11 +9,11 @@ ELIZA is one of the earliest conversational programs in computing history. Creat
 
 The program works by scanning user input for weighted keywords (e.g. *family*, *dream*, *computer*), selecting a response template for the highest-weight match, and substituting parts of the user's own sentence back into the reply with pronouns flipped. If no keyword is recognised it falls back to neutral prompts like *"Can you elaborate?"*.
 
-This demo is relevant to ECON1626 (Economics of AI, RMIT) as a historical case study in human–AI interaction, the gap between apparent and actual machine intelligence, and early public reactions to conversational systems.
+This demo is relevant to ECON1626 (Economics of AI) as a historical case study in human–AI interaction, the gap between apparent and actual machine intelligence, and early public reactions to conversational systems.
 
 ## Running
 
-Open `eliza.html` in any modern browser. No server, build step, or internet connection required — everything is bundled into the single file.
+Pull and open `eliza.html` in any modern browser. No server, build step, or internet connection required — everything is bundled into the single file.
 
 ## How it works
 
